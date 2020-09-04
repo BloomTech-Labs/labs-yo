@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# yeoman state file
+.yo-rc.json
+
 # testing
 /coverage
 
