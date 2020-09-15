@@ -22,6 +22,11 @@ The `labs` cli command is just a wrapper to the [yeoman](https://yeoman.io/learn
 - Run the SPA generator (base single page app starter)
   - `labs spa`
 
+## Generators
+
+- [SPA React](https://github.com/Lambda-School-Labs/generator-spa)
+- [Node API](https://github.com/Lambda-School-Labs/generator-api)
+
 ## Development setup
 
 To develop locally it will be easiest to link the `labs` command and any generators being developed using npm.
