@@ -7,7 +7,7 @@ use of `yo`
 
 > The project has not yet been deployed to <npmjs.com> yet.
 
-`npm i -g labs-yo`
+`npm i -g @lambdalabs/labs`
 
 This will install the main cli wrapper along with all Labs generators as
 dependancies.
@@ -20,7 +20,7 @@ The `labs` cli command is just a wrapper to the [yeoman](https://yeoman.io/learn
 ## Examples
 
 - Run the SPA generator (base single page app starter)
-  - `labs spa`
+  - `labs spa project-name`
 
 ## Generators
 
@@ -32,7 +32,7 @@ The `labs` cli command is just a wrapper to the [yeoman](https://yeoman.io/learn
 To develop locally it will be easiest to link the `labs` command and any generators being developed using npm.
 
 1. link the generator in the labs-yo project folder.
-    
+
     1. Go to the cloned and npm-installed project folder
     2. `npm link`
     3. Cd back to this `labs-yo` folder
