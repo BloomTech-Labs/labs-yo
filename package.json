@@ -1,6 +1,6 @@
 {
   "name": "@lambdalabs/labs",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "The Labs scaffolding",
   "main": "index.js",
   "bin": {
@@ -18,8 +18,8 @@
   "homepage": "https://github.com/Lambda-School-Labs/labs-yo",
   "bugs": "https://github.com/Lambda-School-Labs/labs-yo/issues",
   "dependencies": {
-    "@lambdalabs/generator-api": "^0.3.0",
-    "@lambdalabs/generator-spa": "^0.9.4",
+    "@lambdalabs/generator-api": "^0.3.2",
+    "@lambdalabs/generator-spa": "^0.9.6",
     "parse-help": "^1.0.0",
     "tabtab": "^1.3.2",
     "yeoman-environment": "^2.4.0",
