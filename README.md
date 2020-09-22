@@ -19,13 +19,24 @@ The `labs` cli command is just a wrapper to the [yeoman](https://yeoman.io/learn
 
 ## Examples
 
-- Run the SPA generator (base single page app starter)
-  - `labs spa project-name`
+- Run the SPA generator (base react single page app starter)
+  
+  `labs @lambdalabs/spa project-name`
+
+- Run the Node API generator (base node express api starter)
+  
+  `labs @lambdalabs/api project-name`
 
 ## Generators
 
 - [SPA React](https://www.npmjs.com/package/@lambdalabs/generator-spa)
 - [Node API](https://www.npmjs.com/package/@lambdalabs/generator-api)
+
+## publish npmjs package
+
+- update package.json version
+- add a git tag with the version number `git tag v0.9.30 -m "release note"`
+- push repo and tags `git push && git push --tags`
 
 ## Development setup
 
